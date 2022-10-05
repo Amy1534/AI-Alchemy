@@ -1,1 +1,1 @@
-# AI-Alchemy
+# ai-alchemy
