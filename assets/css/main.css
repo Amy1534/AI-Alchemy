@@ -7,6 +7,12 @@
     src: url("Montchauve.otf") format("opentype");
 }
 
+@font-face {
+    font-family: Blocus;
+    src: url("Blocus.otf") format("opentype");
+}
+
+
 /*
 	Twenty by HTML5 UP
 	html5up.net | @ajlkn
@@ -1874,6 +1880,10 @@ input, select, textarea {
 			margin: 0 0 2em 0;
 		}
 
+		.example {
+			padding: 2em;
+		}
+
 			.image.featured img {
 				display: block;
 				width: 100%;
@@ -2612,9 +2622,6 @@ background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("i
 		}
 
 		#main .sidebar section {
-			border-top: solid 1px rgba(124, 128, 129, 0.2);
-			margin: 3em 0 0 0;
-			padding: 3em 0 0 0;
 		}
 
 			#main .sidebar section:first-child {
@@ -2689,8 +2696,8 @@ background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("i
 		/* Section/Article */
 
 			header.special {
-				padding-top: 3.5em;
-				margin-bottom: 4em;
+				padding-top: 1.5em;
+				margin-bottom: 1em;
 			}
 
 	}
@@ -3155,6 +3162,7 @@ background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("i
 			h2 {
 				font-size: 1.25em;
 				letter-spacing: 0.1em;
+
 			}
 
 			h3 {
@@ -3401,3 +3409,9 @@ table {
       border-bottom: 0; }
     table.alt tfoot {
       border-top: 0; }
+
+.spell{
+	font-family: 'Blocus';
+	font-size: 200%;
+	text-align: center;
+}
