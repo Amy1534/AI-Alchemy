@@ -190,10 +190,9 @@ input, select, textarea {
 
 /* Container */
 
-	.container {
-		margin: 0 auto;
-		margin-left:20vw;
-		margin-right:20vw;
+		.container {
+		margin-left:11vw;
+		margin-right:11vw;
 		max-width: 60%;
 		width: 1400px;
 	}
